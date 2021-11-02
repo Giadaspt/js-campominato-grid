@@ -45,6 +45,7 @@ h1 {
 /* the rest of the body, so container and grid inside */
 .wrapper {
   display: flex;
+  flex-wrap: wrap;
   justify-content: center;
   align-items: center;
   align-content: center;
@@ -54,14 +55,16 @@ h1 {
 .container {
   width: 600px;
   height: 600px;
-  margin-top: 80px;
+  padding-top: 100px;
 }
 
 .square {
   display: flex;
-  flex-wrap: wrap;
+  align-content: center;
   justify-content: center;
   align-items: center;
-  align-content: center;
+  /* width: calc(100% / 10);
+  height: calc(100% / 10); */
+  background-color: coral;
   border: 2px solid black;
 }
