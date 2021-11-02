@@ -42,6 +42,8 @@ h1 {
   padding: 6px
 }
 
+
+
 /* the rest of the body, so container and grid inside */
 .wrapper {
   display: flex;
@@ -71,3 +73,4 @@ h1 {
   background-color: coral;
   border: 2px solid black;
 }
+
