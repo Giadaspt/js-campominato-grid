@@ -63,14 +63,21 @@ h1 {
   padding-top: 100px;
 }
 
+
+
 .square {
   display: flex;
   align-content: center;
   justify-content: center;
   align-items: center;
-  /* width: calc(100% / 10);
-  height: calc(100% / 10); */
   background-color: coral;
   border: 2px solid black;
+  display: none;
 }
+
+.square .active {
+  display: block;
+}
+
+
 
