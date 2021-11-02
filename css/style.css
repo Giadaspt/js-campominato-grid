@@ -4,3 +4,52 @@
   box-sizing: border-box;
 }
 
+body {
+  background-color: darkcyan;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif
+}
+
+.wrapper {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  align-content: center;
+  height: 100vh;
+}
+
+header {
+  display: flex;
+  align-items: center;
+  align-content: center;
+  height: 100px;
+  background-color: white;
+  padding-left: 80px;
+}
+
+h1 {
+  padding-right: 8px;
+}
+
+.logo {
+  width: 80px;
+  height: 80px;
+}
+
+.logo img {
+  width: 100%;
+}
+
+.container {
+  width: 600px;
+  height: 600px;
+  margin-top: 80px;
+}
+
+.square {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+  align-content: center;
+ border: 2px solid black;
+}
