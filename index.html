@@ -10,17 +10,19 @@
 
 <body>
   <header>
-    <h1>Campo Minato</h1>
+    
     <div class="logo">
       <img src="/logo-boolean.png" alt="">
     </div>
+    <h1>Campo Minato</h1>
     <div class="window">
+      <label for="level">Difficoltà:</label>
       <select id="windowValue">
         <option value="10" selected="selected"> Easy </option>
         <option value="9"> Hard </option>
         <option value="7"> Crazy </option>
       </select>
-      <button class="btn" onclick="GetSelectedValue()"> Play </button>
+      <button class="btn" onclick="getSelectedValue()"> Play </button>
     </div>
   </header>
   <div class="wrapper">
